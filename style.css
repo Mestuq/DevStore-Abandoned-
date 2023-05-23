@@ -1,0 +1,325 @@
+body *{
+    margin: 0;
+    padding: 0;
+	font-family: 'Titillium Web', sans-serif;
+}
+body, html {
+	margin:0;
+	
+    width: 100%;
+    height: 100%;
+}
+.rem>input[type=submit] , .remcl {
+
+	background: transparent url(src/rm.png) no-repeat scroll;
+	border: none;
+	cursor: pointer;
+	width: 48px;
+    height: 48px;
+	text-indent: -999px;
+
+}
+form, table {
+     display:inline;
+     margin:0px;
+     padding:0px;
+}
+
+.whitepink
+{
+	background-color: #fff0f2;
+}
+.pink
+{
+	background-color: #f2667d;
+}
+
+.barwindow
+{
+	height: 10%;
+	width:100%;
+}
+.win
+{
+	height: 90%;
+	width:100%;
+}
+iframe
+{
+	display:block;
+	border: none;
+}
+.centPio
+{
+	text-align:center;
+	margin-left: auto;
+    margin-right: auto;	
+
+
+}
+.centPoz
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+}
+.logi
+{
+	color:#f2667d;
+	width:500px;
+}
+.inline
+{
+	display: inline-block;
+}
+.logside
+{
+	margin: 3%;
+	width:43%;
+}
+.lobbylist
+{
+	text-align:left;
+	margin: 2%;
+}
+.under
+{
+	display: block;
+}
+
+.menu
+{
+
+	display: inline-flex;
+	margin:0;
+	padding:0;
+	transform: translate(15px, 5px);
+	border-style: solid;
+	
+	align-items: center;
+	justify-content: center;	
+	text-align:center;
+
+	border-radius: 10px;
+	
+	height:75%;
+	width:100px;
+	font-weight: 900;
+	
+	background-color:#fff0f2;
+	color:#f2667d;
+	cursor: pointer;
+}
+.menu:hover 
+{
+	background-color:#f2667d;
+	color:#fff0f2;
+}
+.hello
+{
+	display: block;
+	float:right;
+	margin-top:7px;
+}
+.user > img
+{
+	border-radius: 50%;
+	width:100px;
+	height:100px;
+}
+.remi
+{
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;	
+	font-size:20px;
+	font-weight: 900;
+	color:#f2667d;
+}
+.remi:hover 
+{
+	text-decoration: line-through;
+	
+
+}
+.sied
+{
+
+	width:750px;
+}
+.film
+{
+
+	transform: translate(125px, 0);
+}
+h3, h1, h5
+{
+	color:#f2667d;
+	font-weight: 900;
+}
+.emo
+{
+	cursor:pointer;
+}
+.logo
+{
+	color:#f2667d;
+	
+	align-items: center;
+	justify-content: center;	
+	
+	font-size:25px;
+	font-family: 'Russo One', sans-serif;
+}
+.logo > img
+{
+	margin-top:1vh;
+	height: 8vh;
+}
+.chatt
+{
+	overflow-y: scroll;
+	min-height:380px;
+	height:380px;
+	max-height:380px;
+	width:90%; 
+	margin:5%;
+	-ms-overflow-style: none;
+}
+
+
+
+.chatt::-webkit-scrollbar 
+{ 
+    width: 0 !important ;
+}
+/*rep #f54260 #f2667d rep*/
+.upr
+{
+    line-height: 3vw;
+}
+.upr > img
+{
+    width: 3vw;
+}
+#av
+{
+    width: 10vw;
+}
+
+.liczbabaz
+{
+    font-size: 20px;
+}
+.zmiany > li > b
+{
+    font-size: 18px;
+}
+.pub
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 125px;
+    font-weight: bold;
+}
+.taglist
+{
+    width: 150px; 
+    display: table-cell;
+}
+#taglists
+{
+    text-align: center;
+}
+
+.downloadloot
+{
+    position:relative;
+    width:150px;
+    height: 150px;
+    margin: 5px;
+    cursor: pointer;
+    float: left;
+}
+
+.downloadloot > img
+{
+    transform: translate(-50%,0);
+    position: absolute;
+    width:150px;
+    height: 150px;
+}
+.downloadloot:hover > img
+{
+    filter: blur(4px) brightness(75%);
+}
+
+.downloadloot > .name
+{
+    display:none;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    transform: translate(-50%,0);
+    bottom: 0;
+    
+}
+.downloadloot:hover > .name
+{
+    display:inline;
+}
+
+.downloadstore
+{
+    display: block;
+    padding-bottom: 100px;
+    height: 500px;
+}
+#crat > button
+{
+    cursor: pointer;
+}
+
+#info
+{
+    position: absolute;
+    z-index: 5;
+    
+    top: 0;
+    left: 0;
+    
+    background-color: white;
+    width: 350px;
+    
+    opacity: 0.0;
+    padding: 5px;
+    
+    margin-top: 25px;
+}
+.downloadstorename
+{
+    text-decoration: underline;
+    text-align: center;
+    font-weight: 900;
+}
+.contrast
+{
+    font-size: 20px;
+    background-color: #f2667d;
+    color: #fff0f2;
+}
+#wpisywanie
+{
+    position: relative;
+    top: auto;
+    bottom: 0;
+    height: 180px;
+    width: 700px;
+    vertical-align: bottom;
+    text-align: center;
+}
