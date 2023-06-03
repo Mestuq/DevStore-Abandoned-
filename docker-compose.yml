@@ -1,0 +1,29 @@
+version: '3'
+
+services:
+  php-apache:
+    container_name: DevStore_PHP_Apache
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 80:80
+    volumes:
+      - ./www:/var/www/html
+    depends_on:
+      - mysql
+    restart: always
+
+  mysql:
+    container_name: DevStore_MYSQL_Database
+    image: mysql:5.7
+    environment:
+        MYSQL_DATABASE: id10128563_login  
+        MYSQL_USER: id10128563_login
+        MYSQL_PASSWORD: logowanie
+        MYSQL_ROOT_PASSWORD: root
+    restart: always
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./DATABASE.sql:/docker-entrypoint-initdb.d
